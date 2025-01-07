@@ -1,0 +1,154 @@
+#container {
+  background-color: #0d6efd;
+  display: flex;
+  height: 500px;
+  animation: msd 20s infinite;
+}
+
+@keyframes msd {
+  from {background-color: aqua;}
+  to {background-color: blue;}
+}
+
+.right {
+  display: flex;
+  width: 50%;
+  
+}
+
+.left {
+  width: 50%;
+  
+}
+
+.lf {
+
+font-family:"Barlow", sans-serif ;
+font-size: 30px;
+width: 50%;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+.rt {
+  
+  font-family: "Barlow", sans-serif;
+  font-size: 27px;
+  right: 0%;       
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  justify-content:center ;
+  margin-top: 25%;
+  color: white;
+}
+
+.barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.left img {
+  width: 89%;
+  height: 94%;
+}
+
+.ABOUT {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-family: "Barlow", sans-serif;
+}
+
+.ABOUT h3 {
+  color: #0d6efd ;
+}
+
+.BATTINGCAREER {
+  color: #0d6efd;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Barlow", sans-serif;
+}
+
+.T20I {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.tu img {
+      width: 50px; 
+      height: 50px;
+      margin-top: 50%;
+}
+
+.tu {
+  display: flex;
+  margin-top: 55%;    
+}
+
+.ipl{
+  text-align: left;
+  margin-left: 10%;
+}
+
+.BOWLING {
+  color: #0d6efd;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Barlow", sans-serif;
+}
+
+.left a{
+  color: white;
+  text-decoration: none;
+  top: 0%;
+
+  font-size: 25px;
+}
+
+.lefft {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.lefft img {
+  width: 5%;
+  margin-left: 1%;
+  border-radius: 50%;
+}
+
+.mid {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  width: 33%;
+  align-items: center;
+  display: flex;
+}
+
+.rigght { 
+  color: white; 
+  width: 33%; 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.life {
+  background-color: #0d6efd;
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.rigght span {
+  text-align: center;
+  justify-content: center;
+}

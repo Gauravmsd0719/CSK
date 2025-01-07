@@ -1,0 +1,123 @@
+.container{
+    background-color: white;
+    text-align: center;
+    animation: play 15s infinite;
+}
+
+@keyframes play {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+  }
+
+
+.Dhoni{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: msd 15s infinite;
+}
+
+@keyframes msd {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+  }
+
+.Ms-Dhoni{
+    width: 300px;
+}
+
+.first {
+    display: flex;
+    /* justify-content: center;
+    text-align: center;
+    align-items: center; */
+    width: 100%;
+    animation: msd 15s infinite;
+}
+
+@keyframes msd {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+  }
+.image{
+    width: 50%;
+}
+
+.img {
+    width: 33%;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    animation: msd 15s infinite;
+}
+
+@keyframes msd {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+  }
+
+.imgs{
+    width: 25%;
+       
+}
+.imgs img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.rigght { 
+    color: white; 
+    width: 33%; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .life {
+    background-color: #0d6efd;
+    display: flex;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .rigght span {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .lefft img {
+    width: 5%;
+    margin-left: 1%;
+    border-radius: 50%;
+  }
+  
+  .mid {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    width: 33%;
+    align-items: center;
+    display: flex;
+  }
+  
+  .lefft {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .lefft img {
+    width: 7%;
+    margin-left: 1%;
+    border-radius: 60%;
+  }
